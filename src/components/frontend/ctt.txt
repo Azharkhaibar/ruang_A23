@@ -1,0 +1,21 @@
+fontFamily="Montserrat, sans-serif"
+fontFamily="Montserrat, sans-serif"
+
+fontFamily: "Lato, sans-serif";
+font-family: "Montserrat, sans-serif";
+
+
+font-family: "Montserrat", sans-serif;
+font-family: "Lato", sans-serif;
+font-family: "Libre Franklin", sans-serif;
+
+style={{ position: "relative", height: "70vh", overflow: "hidden" }}
+
+
+// highnavbar 
+
+<div className="project-container">
+        {currentProjects.map((project) => (
+          <ProjectCard key={project.id} image={project.image} title={project.title} />
+        ))}
+      </div>

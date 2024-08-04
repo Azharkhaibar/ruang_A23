@@ -1,0 +1,38 @@
+.comparison-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Sesuaikan dengan kebutuhan */
+  height: 400px; /* Sesuaikan dengan kebutuhan */
+  overflow: hidden;
+}
+
+.comparison-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.comparison-image.before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%; /* Lebar awal dari gambar sebelum */
+}
+
+.comparison-image.after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  clip: rect(0, 50%, 100%, 0); /* Mengatur klip gambar untuk efek geser */
+}
+
+.comparison-slider {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 10px; /* Lebar slider */
+  height: 100%;
+  background-color: #000; /* Warna slider */
+  cursor: ew-resize;
+}

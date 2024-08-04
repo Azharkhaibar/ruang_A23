@@ -1,0 +1,551 @@
+
+@media screen and (max-width: 768px) {
+ #header {
+        height: 340vh; /* Adjust height to auto for responsiveness */
+         /* Adjust font size for smaller screens */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .banner {
+        height: 50vh; /* Adjust height for smaller screens */
+    }
+
+    .banner-container h2 {
+        font-size: 50px;
+    }
+
+    .banner-container h4 {
+        font-size: 18px; 
+    }
+
+    .luxury-button h3 {
+        padding: 12px 24px;
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        height: 40vh; /* Adjust height for mobile screens */
+    }
+
+    .banner-container h2 {
+        font-size: 35px; /* Smaller font size for mobile */
+    }
+
+    .banner-container h4 {
+        font-size: 16px; 
+    }
+
+    .luxury-button h3 {
+        padding: 10px 20px;
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .p-1 {
+        flex: 1 1 calc(50% - 20px); 
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .concept {
+        padding: 35px 0;
+    }
+
+    .concept::before {
+        display: none;
+    }
+
+    .concept-container {
+        margin-top: -50px;
+    }
+
+    .p-1 {
+        flex: 0 0 90%;
+        margin: 10px 0;
+        width: 200px;
+        height: auto;
+    }
+
+    
+
+    .p-1-item {
+        padding-bottom: 20px;
+    }
+
+    .p-1-item img {
+        border-bottom: none; /* Remove bottom border from images */
+        width: 100%;
+    }
+
+    .p-1-item h3 {
+        bottom: -10px; /* Adjust position of title */
+        padding: 15px;
+        font-size: 18px; /* Reduce font size */
+    }
+
+    .p-1-item:hover h3 {
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Adjust hover effect */
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #provide {
+        height: auto; /* Adjust height for mobile */
+        padding: 20px; /* Add padding */
+    }
+
+    .provide-container {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: flex-start;
+    }
+
+    .left-provide, .right-provide {
+        width: 100%; /* Full width */
+        padding: 10px;
+        text-align: left; /* Left align text */
+    }
+
+    .left-provide h1 {
+        font-size: 36px;
+    }
+
+    .left-provide p {
+        font-size: 14px;
+    }
+
+    .quote-card {
+        max-width: 100%; /* Full width */
+        margin-top: 20px; /* Reduce margin */
+    }
+
+    .p-thumb-container {
+        flex-direction: column; 
+        gap: 20px; /* Adjust gap */
+        align-items: flex-start;
+    }
+
+    .p-thumb-item span {
+        font-size: 14px;
+    }
+
+    .btn-provide {
+        padding-top: 3%; 
+        margin-top: 10%;
+    }
+
+    .btn-provide h3 {
+        width: 160px; /* Adjust width */
+        padding: 10px; 
+        font-size: 12px;
+    }
+
+    .right-provide img {
+        width: 500px; /* Full width */
+        margin-top: 10%;
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #service {
+        height: 100vh;
+    }
+
+    .service-container {
+        height: auto;
+        padding: 20px; /* Add padding for spacing */
+    }
+
+    .txt-service h2 {
+        font-size: 30px;
+    }
+
+    .card-service {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+    }
+
+    .card-service-container {
+        flex: 1 1 90%;
+        max-width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .card-service-item {
+        padding: 40px 20px;
+    }
+
+    .card-service-item img {
+        width: 80px;
+        margin-bottom: 20px;
+    }
+
+    .card-service-overlay {
+        height: auto;
+    }
+
+    .card-service-container:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    .card-service-hover-img {
+        display: none; /* Hide hover image on mobile */
+    }
+
+    .card-service-item h3 {
+        font-size: 20px; /* Adjusted font size */
+        margin-bottom: 10px; /* Add margin for spacing */
+    }
+
+    .card-service-item p {
+        font-size: 14px; /* Adjusted font size */
+        line-height: 1.5; /* Improve readability */
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #pict {
+        height: auto;
+    }
+    .pict-item {
+        min-height: 25rem; /* Adjusted minimum height */
+        min-width: 100%; /* Full width for mobile */
+    }
+
+    .pict-container img {
+        height: 100%; /* Ensure image covers entire container */
+    }
+
+    .pict-overlay {
+        font-size: 14px; /* Reduced font size */
+    }
+
+    .pict-overlay span {
+        bottom: 15%; /* Adjusted position */
+        left: 5%; /* Adjusted position */
+    }
+
+    .pict-overlay h2 {
+        bottom: 5%; /* Adjusted position */
+        left: 5%; /* Adjusted position */
+        font-size: 20px; /* Adjusted font size */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #contact-sec {
+        padding: 20px 0; /* Adjust padding for mobile */
+        height: 35vh;
+    }
+
+    .contact-sec-wrapper {
+        flex-direction: column; /* Stack columns vertically */
+        text-align: center;
+        padding: 20px;
+    }
+
+    .contact-sec-left {
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 20px; /* Add margin for spacing */
+    }
+
+    .contact-sec-left h4 {
+        font-size: 14px; /* Reduce font size */
+        text-align: center;
+        padding-right: 17%;
+        margin-top: 6%;
+    }
+
+    .contact-sec-left h2 {
+        font-size: 24px; /* Reduce font size */
+        text-align: center;
+        padding-right: 17%;
+        margin-top: 4%;
+    }
+
+    .contact-sec-right {
+        width: 100%;
+    }
+
+    .contact-sec-right h3 {
+        padding: 10px 20px; /* Reduce padding */
+        font-size: 12px; /* Reduce font size */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .testimoni-wrapper h2 {
+        font-size: 28px;
+    }
+
+    .card-testi-container {
+        flex-direction: column; /* Stack items vertically on mobile */
+        transform: translateX(0); /* Initial position */
+    }
+
+    .card-testi-item {
+        width: 90%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .above-part {
+        padding: 15px;
+    }
+
+    .above-part img {
+        width: 50px;
+    }
+
+    .txt-above h3 {
+        font-size: 16px;
+    }
+
+    .txt-above h4 {
+        font-size: 12px;
+    }
+
+    .desc-testi p {
+        font-size: 14px;
+    }
+
+    .desc-testi {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog {
+        padding: 3rem 0;
+        height: auto;
+    }
+
+    .txt-blog h2 {
+        font-size: 1.8rem;
+    }
+
+    .card-blog {
+        gap: 1rem;
+         overflow-x: auto; /* Ensure horizontal scrolling */
+    overflow-y: hidden; 
+    scroll-snap-type: x mandatory;
+    }
+
+    .card-blog-container {
+        min-width: 90%;
+    }
+
+    .card-blog-item img {
+        height: 180px;
+    }
+
+    .desc-blog h1 {
+        font-size: 1.25rem;
+    }
+
+    .desc-blog p {
+        font-size: 0.85rem;
+    }
+
+    .desc-blog span {
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .support {
+        height: auto; /* Auto height to accommodate content */
+        padding: 2rem 0; /* Increased padding for better spacing on mobile */
+    }
+
+    .support-container {
+        gap: 10px; /* Reduced gap between items */
+    }
+
+    .support-container img {
+        width: 100px; /* Adjusted image width for smaller screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #footer {
+        height: auto;
+    }
+
+    .footer-container {
+        height: auto;
+    }
+
+     .footer-wrapper {
+        flex-direction: column; /* Stack sections vertically on mobile */
+        align-items: center; /* Center align sections on mobile */
+    }
+ .footer-left,
+    .footer-middle,
+    .footer-right {
+        width: 100%; /* Full width for all sections on mobile */
+        text-align: center; /* Center align text content on mobile */
+        padding-top: 5%; /* Reduced top padding for better spacing on mobile */
+    }
+
+     .footer-left .submit-btn {
+        font-size: 14px; /* Smaller font size for better fit on mobile */
+        padding: 8px 16px; /* Adjusted padding for smaller screens */
+    }
+
+    .footer-middle h3,
+    .footer-right h3 {
+        font-size: 20px; /* Smaller font size for better fit on mobile */
+    }
+
+    .footer-middle ul li a {
+        font-size: 16px; /* Smaller font size for better fit on mobile */
+    }
+
+    .footer-right p {
+        font-size: 16px; /* Smaller font size for better fit on mobile */
+    }
+
+    .footer-social {
+        margin-top: 0.5rem; /* Reduced margin for better spacing on mobile */
+    }
+
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .contact-sec-wrapper {
+    flex-direction: column;
+    padding: 4% 2%; /* Add padding for better spacing on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+
+  .carousel-container {
+    height: 650px;
+    border-radius: none;
+  }
+  .contact-sec-left h2 {
+    font-size: 20px; 
+    text-align: left;/* Further reduce font size for very small screens */
+  }
+
+  .contact-sec-right h3 {
+    padding: 10px 20px; /* Adjust padding for very small screens */
+    font-size: 14px;
+    text-align: left; /* Reduce font size for the button */
+  }
+}
+
+@media (max-width: 1200px) {
+  .static-content {
+    padding: 4% 8%;
+  }
+
+  .static-content h2 {
+    font-size: 60px;
+  }
+
+  .static-content h4 {
+    font-size: 18px;
+  }
+
+  .luxury-button h3 {
+    padding: 12px 30px;
+  }
+
+  .banner {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .static-content {
+    padding: 3% 6%;
+  }
+
+  .static-content h2 {
+    font-size: 50px;
+    padding-top: 8%;
+  }
+
+  .static-content h4 {
+    font-size: 16px;
+  }
+
+  .luxury-button h3 {
+    padding: 10px 25px;
+  }
+
+  .banner {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .static-content {
+    padding: 2% 4%;
+  }
+
+  .static-content h2 {
+    font-size: 40px;
+    padding-top: 7%;
+  }
+
+  .static-content h4 {
+    font-size: 14px;
+  }
+
+  .luxury-button h3 {
+    padding: 8px 20px;
+  }
+
+  .banner {
+    padding: 5px;
+  }
+
+  .carousel-slide {
+    min-width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .static-content {
+    padding: 1% 2%;
+  }
+
+  .static-content h2 {
+    font-size: 30px;
+    padding-top: 6%;
+  }
+
+  .static-content h4 {
+    font-size: 12px;
+  }
+
+  .luxury-button h3 {
+    padding: 6px 15px;
+  }
+
+  .banner {
+    padding: 5px;
+  }
+
+  .carousel-slide {
+    min-width: 100%;
+  }
+}

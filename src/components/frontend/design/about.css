@@ -1,0 +1,93 @@
+#navbar {
+  width: 100%;
+  border-bottom: 1px solid rgba(241, 241, 241, 0.527);
+  position: fixed;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+#navbar-scrolled {
+  background-color: #fff; /* Background color when scrolled */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  background: transparent;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+.navbar-ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.navbar-ul li {
+  margin: 0 15px;
+  cursor: pointer;
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+  font-family: var(--font-primary);
+  transition: color 0.3s ease;
+}
+
+.navbar-ul li:hover {
+  color: #007BFF; 
+}
+
+.navbar-ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 15px;
+  font-family: var(--font-primary);
+  transition: color 0.3s ease;
+}
+
+.logo-icon img {
+  height: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  filter: invert(1);
+}
+
+.logo-icon img:hover {
+  transform: scale(1.2);
+}
+
+/* NAVBAR FONT BLACK */
+
+#navbar_li_black {
+  color: black;
+}
+
+.incrementnumber {
+  color: white;
+}
+
+.slide-in {
+  animation: slideIn 0.5s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
